@@ -21,6 +21,7 @@
     "rules": {
       "prettier/prettier": "error",
       "class-methods-use-this": "off",
+      // "camelcase": [2, {"properties": "never"}],
       "import/extensions": [
         "error",
         "ignorePackages",
