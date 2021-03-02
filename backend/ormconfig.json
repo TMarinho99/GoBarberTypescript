@@ -5,11 +5,11 @@
   "username": "postgres",
   "password": "25thiago99",
   "database": "gostack_gobarber",
-  "entites": [
-    "./src/models/*.ts"
+  "entities": [
+    "./src/models/*.{js,ts}"
   ],
   "migrations": [
-    "./src/database/migrations/*.ts"
+    "./src/database/migrations/*.{js,ts}"
   ],
   "cli": {
     "migrationsDir": "./src/database/migrations"
